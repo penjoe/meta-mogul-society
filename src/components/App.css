@@ -1,0 +1,17 @@
+/* base styles */
+/* 
+mogul gold: #f69f13
+mogul grey: #989898
+black: #000000
+white (font): #ffffff
+font type: rubik <== google fonts and/or font awesome
+*/
+
+/* font family for MMS */
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+* {
+  background-color: #000;
+  color: #fff;
+  font-family: 'Rubik', sans-serif;
+}
