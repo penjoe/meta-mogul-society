@@ -1,9 +1,6 @@
 // dependencies
 import React from 'react';
 
-// stylesheets
-import './App.css'
-
 // custom modules
 import Header from './header/Header.js';
 import About from './about/About.js';
