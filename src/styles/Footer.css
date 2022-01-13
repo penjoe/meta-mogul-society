@@ -1,0 +1,28 @@
+.footer {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  }
+  
+  .footer-left { grid-area: 1 / 1 / 2 / 4; }
+  .footer-right { 
+    grid-area: 1 / 5 / 2 / 6;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+  }
+
+.footer p {
+  margin-top: 0;
+  margin-bottom: 5rem;
+  font-size: 1.7rem;
+  line-height: 100%;
+}
+
+.social-icons {
+  width: 4.5rem;
+} 

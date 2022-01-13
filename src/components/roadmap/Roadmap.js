@@ -1,10 +1,16 @@
 // dependencies
 import React from 'react';
 
+// components
+import RoadmapCard from './RoadmapCard.js';
+
 const Roadmap = () => {
   return(
     <div className='roadmap'>
-      roadmap info
+      <RoadmapCard />
+      <RoadmapCard />
+      <RoadmapCard />
+      <RoadmapCard />
     </div>
   );
 };
