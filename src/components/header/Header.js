@@ -8,7 +8,7 @@ const Header = () => {
   return(
     <div className='header'>
       <img className='hero-image' src={images.heroImage} alt='hero'/>
-      <h1>Meta Mogul Society</h1>
+      <h1 className={'main-title'}>Meta Mogul Society</h1>
     </div>
   );
 };
