@@ -20,30 +20,37 @@ const Roadmap = () => {
 
                     <RoadmapCard
                         styleName='completed'
-                        title='first'
+                        title='first event title'
+                        date='20 jan 2022'
                         >
-                        description
+                        Lorem ipsum dolor sit amet, consectetur adipiscing eli Aliquam et nunc urna. Aenean a porta lorem. Donec scelerisque mattis dui, eget interdum lectus fermentum et. Quisque tempus cursus finibus. Vestibulum eu placerat lacus. In ac lectus ut libero vehicula finibus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
                     </RoadmapCard>
 
                     <RoadmapCard
                         styleName='completed'
-                        title='second'
+                        title='second event title'
+                        date='20 jan 2022'
                         >
-                        description
+                        Lorem ipsum dolor sit amet, consectetur adipiscing eli Aliquam et nunc urna. Aenean a porta lorem. Donec scelerisque mattis dui, eget interdum lectus fermentum et. Quisque tempus cursus finibus. Vestibulum eu placerat lacus. In ac lectus ut libero vehicula finibus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+
                     </RoadmapCard>
 
                     <RoadmapCard
                         styleName='current'
-                        title='third'
+                        title='third event title'
+                        date='20 jan 2022'
                         >
-                        description
+                        Lorem ipsum dolor sit amet, consectetur adipiscing eli Aliquam et nunc urna. Aenean a porta lorem. Donec scelerisque mattis dui, eget interdum lectus fermentum et. Quisque tempus cursus finibus. Vestibulum eu placerat lacus. In ac lectus ut libero vehicula finibus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+
                     </RoadmapCard>
 
                     <RoadmapCard
                         styleName=''
-                        title='fourth'
+                        title='fourth event title'
+                        date='20 jan 2022'
                         >
-                        description
+                        Lorem ipsum dolor sit amet, consectetur adipiscing eli Aliquam et nunc urna. Aenean a porta lorem. Donec scelerisque mattis dui, eget interdum lectus fermentum et. Quisque tempus cursus finibus. Vestibulum eu placerat lacus. In ac lectus ut libero vehicula finibus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+
                     </RoadmapCard>
                     
                     
