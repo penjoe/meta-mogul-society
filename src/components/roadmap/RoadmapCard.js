@@ -1,20 +1,28 @@
 // dependencies
-import React from 'react';
+import React, {Component} from 'react';
 
 // assets
 import images from '../../assets/images.js';
 
-import classes from '../../styles/Roadmap.scss';
 
-const RoadmapCard = () => {
-    return(
+class RoadmapCard extends Component {
+    render(){
+        return(
         <div className='status'>
             <div className={ "dot " + ( this.props.styleName || "") }>
-                
+                <div className='textcard'>
+                    <h1>{this.props.title}</h1>
+                    <p>{this.props.children}</p>
+                </div>
             </div>
-            <h3>{this.props.children}</h3>
+            
+        
+        
         </div>
-  );
+        )
+    }
+    
+        
 }
   
 
