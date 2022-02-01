@@ -11,7 +11,7 @@ class RoadmapCard extends Component {
         <div className='status'>
             <div className={ "dot " + ( this.props.styleName || "") }>
                 <div className='textcard'>
-                    <div id='roadmapcardtitle'>
+                    <div className='roadmapcardtitle'>
                         <p>{this.props.date}</p>
                         <h1>{this.props.title}</h1>
                     </div>

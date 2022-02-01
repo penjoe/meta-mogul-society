@@ -21,7 +21,7 @@ const Roadmap = () => {
                     <RoadmapCard
                         styleName='completed'
                         title='first event title'
-                        date='20 jan 2022'
+                        date='20 Jan 2022'
                         >
                         Lorem ipsum dolor sit amet, consectetur adipiscing eli Aliquam et nunc urna. Aenean a porta lorem. Donec scelerisque mattis dui, eget interdum lectus fermentum et. Quisque tempus cursus finibus. Vestibulum eu placerat lacus. In ac lectus ut libero vehicula finibus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
                     </RoadmapCard>
@@ -29,7 +29,7 @@ const Roadmap = () => {
                     <RoadmapCard
                         styleName='completed'
                         title='second event title'
-                        date='20 jan 2022'
+                        date='20 Jan 2022'
                         >
                         Lorem ipsum dolor sit amet, consectetur adipiscing eli Aliquam et nunc urna. Aenean a porta lorem. Donec scelerisque mattis dui, eget interdum lectus fermentum et. Quisque tempus cursus finibus. Vestibulum eu placerat lacus. In ac lectus ut libero vehicula finibus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
 
@@ -38,7 +38,7 @@ const Roadmap = () => {
                     <RoadmapCard
                         styleName='current'
                         title='third event title'
-                        date='20 jan 2022'
+                        date='20 Jan 2022'
                         >
                         Lorem ipsum dolor sit amet, consectetur adipiscing eli Aliquam et nunc urna. Aenean a porta lorem. Donec scelerisque mattis dui, eget interdum lectus fermentum et. Quisque tempus cursus finibus. Vestibulum eu placerat lacus. In ac lectus ut libero vehicula finibus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
 
@@ -47,7 +47,7 @@ const Roadmap = () => {
                     <RoadmapCard
                         styleName=''
                         title='fourth event title'
-                        date='20 jan 2022'
+                        date='20 Jan 2022'
                         >
                         Lorem ipsum dolor sit amet, consectetur adipiscing eli Aliquam et nunc urna. Aenean a porta lorem. Donec scelerisque mattis dui, eget interdum lectus fermentum et. Quisque tempus cursus finibus. Vestibulum eu placerat lacus. In ac lectus ut libero vehicula finibus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
 
