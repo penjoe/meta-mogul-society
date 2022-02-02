@@ -2,16 +2,17 @@
 // roadmap
 .roadmap h1{
     color: orange;
+    
 }
 
 
 .lineContainer { 
-    margin-top: 55vh;  // <<<<<< adjust when changing
+    margin-top: 55vh;  // <<<<<< adjust when changing line height
     margin-left: -45vh;
     margin-bottom: 10%;
     display: flex;
     width: 100%;
-    height: 65vh;   // <<<< make box taller then line longer
+    height: 65vh;   // <<<< make box taller, then line longer
     
       .progressLine {
           position: relative;
