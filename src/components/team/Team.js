@@ -25,6 +25,7 @@ const Team = () => {
             text={'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris at justo ut ex commodo volutpat.'} 
             />
       </div>
+      <div className='footer-gradient'></div>
     </div>
   );
 };
