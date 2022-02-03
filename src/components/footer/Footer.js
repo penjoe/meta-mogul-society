@@ -7,8 +7,10 @@ import images from '../../assets/images.js';
 const Footer = () => {
   return(
     <div className='footer'>
+        
       <div className='footer-left'>
-        <p>We are meta mogul society</p>
+        <p>We are</p>
+        <h2>Meta Mogul society</h2>
         <p>Connect with us!</p>
       </div>
       <div className='footer-right'>

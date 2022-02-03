@@ -1,57 +1,103 @@
-// .team-wrap {
-//   background-color: #ffffff;
-// }
+.team-wrap {
+    color: lightgray;
+    text-align: center;
+}
 
 .team-header {
   padding-top: 3rem;
   text-align: center;
-  color: #000000;
-//   background-color: #ffffff;
+  color: lightgray;
+  background-color: rgb(33, 33, 33);
   font-size: 3.5rem;
 }
 
 .team {
-  background-color: #ffffff;
+  background-color: rgb(33, 33, 33);
   color: #000000;
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   grid-template-rows: 1fr;
   grid-column-gap: 0px;
   grid-row-gap: 0px;
-  }
+
+}
   
   .order1 { 
     grid-area: 1 / 2 / 2 / 3;
     display: flex;
     justify-content: center;
-  }
+}
   .order2 { 
     grid-area: 1 / 4 / 2 / 5; 
     display: flex;
     justify-content: center;
-  }
+}
 
 .team-card {
-  background-color: #ffffff;
+//   background-color: #ffffff;
   display: flex;
   flex-direction: column;
-}
+  background-color: rgb(33, 33, 33);
+  margin-top: 7rem; 
+  margin-bottom: 5rem; 
 
-.team-card h3 {
-  background-color: #ffffff;
-  color: #000000;
-  text-align: center;
-  font-size: 2rem;
-}
+  h3{
+    color: orange;
+    text-align: center;
+    font-size: 2rem;
+  }
 
-.team-card p {
-  background-color: #ffffff;
-  color: #000000;
-  text-align: center;
-  font-size: 1.3rem;
+  p{
+    color: lightgray;
+    text-align: center;
+    font-size: 1.3rem;
+  }
 }
 
 .team-avatars {
-  width: 20rem;
+  width: 75%;
   margin: 0 auto;
+  border-radius: 50%;
+  box-shadow: 0 0 15px 10px black;
+
+}
+
+.team-socials{
+    display: inline;
+    text-align: center;
+
+    img{
+        width: 15%;
+    }
+    
+}
+
+.team-hero-image {
+    max-width: 100%;
+  
+    /* The background image */
+  //   background-image: url("../assets/images/team.png");
+  
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgb(0, 0, 0)),url("../assets/images/WEBSITE_BANNER_IDEA4.png");
+  
+  /* Set a specified height, or the minimum height for the background image */
+    min-height: 450px;
+  //   max-height: 50%;
+  
+    /* Set background image to fixed (don't scroll along with the page) */
+    background-attachment: fixed;
+  
+    /* Center the background image */
+    background-position: center;
+  
+    /* Set the background image to no repeat */
+    background-repeat: no-repeat;
+  
+    /* Scale the background image to be as large as possible */
+    background-size: cover;
+  //   background-size: 100% ;
+  };
+
+  .footer-gradient{
+    background-color: linear-gradient(to top, rgba(255, 255, 255, 0), rgb(0, 0, 0));
 }
