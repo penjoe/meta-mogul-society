@@ -7,7 +7,8 @@ import images from '../../assets/images.js';
 const Header = () => {
   return(
     <div className='header'>
-      <img className='hero-image' src={images.heroImage} alt='hero'/>
+      <div className='header-hero-image'></div>
+      {/* <img className='hero-image' src={images.heroImage} alt='hero'/> */}
       <h1 className={'main-title'}>Meta Mogul Society</h1>
     </div>
   );

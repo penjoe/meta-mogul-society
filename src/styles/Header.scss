@@ -1,8 +1,37 @@
-.hero-image {
+.header-hero-image {
   max-width: 100%;
+
+  /* The background image */
+  background-image: url("../assets/images/hero.png");
+
+//   background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgb(21, 20, 20)),url("../assets/images/hero.png");
+
+/* Set a specified height, or the minimum height for the background image */
+  min-height: 450px;
+//   max-height: 50%;
+
+  /* Set background image to fixed (don't scroll along with the page) */
+  background-attachment: fixed;
+
+  /* Center the background image */
+  background-position: center;
+
+  /* Set the background image to no repeat */
+  background-repeat: no-repeat;
+
+  /* Scale the background image to be as large as possible */
+  background-size: cover;
+//   background-size: 100% ;
 };
 
 .main-title {
   font-size: 4rem;
   text-align: center;
+
 };
+
+// .header{
+//     background-image: linear-gradient(to top, rgba(255,0,0,0), rgb(255, 0, 0));
+
+// }
+

@@ -10,6 +10,7 @@ import TeamCard from './TeamCard.js';
 const Team = () => {
   return(
     <div className='team-wrap'>
+        <div className='team-hero-image'></div>
       <h1 className='team-header'>Meet the Moguls</h1>
       <h4 >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris at justo ut </h4>
       <div className='team'>
