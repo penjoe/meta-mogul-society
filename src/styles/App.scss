@@ -11,11 +11,20 @@ font type: rubik <== google fonts and/or font awesome
 @import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
 
 * {
-  background-color: #000;
-  color: #fff;
   font-family: 'Rubik', sans-serif;
 }
+
+.app{
+    background-color: black;
+    color: white;
+}
+
+
+// .roadmap{
+//     background-color: black;
+// }
 
 /* .discord-icon {
   width: 50px;
 } */
+
